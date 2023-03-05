@@ -1,48 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-body {
-    background: hsl(212, 45%, 89%);
-    text-align: center;
+* {
+    margin: 0;
+    text-decoration: none;
     font-family: 'Outfit', sans-serif;
 }
-.attribution {
-    font-size: 0.7rem;
+body {
+    height: 100vh;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(212, 45%, 89%);
+    text-align: center;
 }
 .main__container {
-    width: fit-content;
-    margin: 5% auto;
-    padding: 5%;
+    width: 18rem;
+    padding: 1rem;
     background: hsl(0, 0%, 100%);
     border-radius: 1rem;
 }
 .container__img {
-    width: 300px;
+    width: 18rem;
     border-radius: 1rem;
 }
 .container__text {
-    width: 300px;
-    margin: 2% auto;
+    margin: 1rem 0.5rem;
 }
 .container__text h1 {
+    padding-bottom: 1rem;
     color: hsl(218, 44%, 22%);
 }
 .container__text p {
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
+    font-size: 1rem;
+}
+.attribution {
+    white-space: pre;
+}
+.attribution a:hover {
+    font-weight: bolder;
 }
 
 @media (min-width: 600px) {
-    .main__container {
-        padding: 4%;
-    }
-}
-@media (min-width: 800px) {
-    .main__container {
-        padding: 3%;
-    }
-}
-@media (min-width: 1000px) {
-    .main__container {
-        padding: 2%;
-    }
+   
 }
